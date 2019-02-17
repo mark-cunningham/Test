@@ -1,6 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="runserver_plus" type="Python.DjangoServer" factoryName="Django server" singleton="true">
-    <module name="test" />
+  <configuration default="false" name="runserver" type="Python.DjangoServer" factoryName="Django server" singleton="true">
     <option name="INTERPRETER_OPTIONS" value="" />
     <option name="PARENT_ENVS" value="true" />
     <envs>
@@ -12,6 +11,7 @@
     <option name="IS_MODULE_SDK" value="true" />
     <option name="ADD_CONTENT_ROOTS" value="true" />
     <option name="ADD_SOURCE_ROOTS" value="true" />
+    <module name="test" />
     <PathMappingSettings>
       <option name="pathMappings">
         <list>
@@ -26,8 +26,8 @@
     <option name="browserUrl" value="" />
     <option name="runTestServer" value="false" />
     <option name="runNoReload" value="false" />
-    <option name="useCustomRunCommand" value="true" />
-    <option name="customRunCommand" value="runserver_plus" />
+    <option name="useCustomRunCommand" value="false" />
+    <option name="customRunCommand" value="" />
     <method />
   </configuration>
 </component>
